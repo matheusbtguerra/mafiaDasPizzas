@@ -1,0 +1,239 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-image: url(fundoVermelho.png);
+    background-position: center;
+    background-size: 90vh 90vw;
+    font-family: "Prompt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    width: 96%;
+    margin: auto;
+    margin-top: 2%;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  a:hover {
+    cursor: pointer;
+  }
+
+  .header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 5px white;
+
+  }
+
+  .header-container ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-container li {
+    text-align: center;
+    list-style: none;
+    width: 24.3%;
+  }
+
+  .header-container a {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-color: #F8C700;
+  }
+
+  .header-container li:first-child {
+        text-align: center;
+        list-style: none;
+        width: 27%;
+  }
+
+  .header-container ul img {
+    background-color: white;
+  }
+
+  .header-container button {
+    background-color: #F8C700;
+    border: none;
+    padding-right: 3.1%;
+    padding-left: 3.1%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+  }
+
+  .header-container button a {
+    color: #FA1B37;
+    text-decoration: none;
+  }
+
+  .section-carrousel {
+    margin-bottom: 7%;
+    margin-top: 5%;
+  }
+
+  .carousel-container {
+    position: relative;
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+    margin: 0 auto;
+    margin-top: 5%;
+    overflow: hidden;
+    border: solid 5px #7D0010;
+}
+
+.carousel-slide {
+    display: flex;
+}
+
+.carousel-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease;
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px 20px;
+    border: none;
+    font-size: 2em;
+    font-weight: 900;
+    background-color: transparent;
+    text-shadow: 2px 2px 1px #7D0010;
+    color: #F8C700;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#prevBtn {
+    left: 10px;
+}
+
+#nextBtn {
+    right: 10px;
+}
+
+.cardapio-container {
+  background-image: url(fundoAmarelo.png);
+  background-position: center;
+  background-size: contain;
+  padding: 10%;
+}
+
+.text-cardapio ul {
+  list-style: disc;
+  font-size: 1.3em;
+  font-weight: 500;
+}
+
+.text-cardapio li {
+  padding: 0.7%;
+}
+
+.text-cardapio mark {
+  background-color: #FA1B37;
+}
+
+.text-cardapio h2 {
+  font-size: 2em;
+}
+
+.text-cardapio h2 span {
+  color: #FA1B37;
+}
+
+.main-footer {
+ text-align: center;
+ border-top: solid 4px #fff;
+}
+
+footer mark{
+  background-color: #FA1B37;
+}
+
+.copyright {
+  background-color: #FA1B37;
+}
+
+
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-size: 1.2em;
+}
+
+#ph {
+  font-size: 1.1em;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  padding: 0.6%;
+}
+
+.cliente h1 {
+  margin-bottom: 5%;
+}
+
+.pedido h1 {
+  margin-bottom: 5%;
+}
+
+.btn {
+  font-size: 1em;
+  font-weight: 500;
+  padding: 5%;
+  width: 50%;
+  color: #000000;
+  background-color: #F8C700;
+  border:solid 5px #7D0010;
+  font-family: "Prompt", sans-serif;
+  transition: all .5s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #ff7b00;
+}
+
+.btn:active {
+  transform: scale(0.9);
+}
+
+
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  margin-top: 2%;
+  background-image: url(fundoAmarelo.png);
+  background-position: center;
+  background-size: contain;
+  padding: 3%;
+}
